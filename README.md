@@ -470,28 +470,6 @@ Special thanks to:
 
 ---
 
-## 🗺️ Roadmap
-
-### Planned Features
-- [ ] Memory system across sessions
-- [ ] Voice cloning with custom TTS
-- [ ] Multiple character models
-- [ ] Conversation export
-- [ ] Mobile app version
-- [ ] Multi-language support
-- [ ] Emotion memory
-- [ ] Streaming responses
-
-### Maybe Later
-- [ ] 3D character models
-- [ ] Video call interface
-- [ ] Multiple AI backends
-- [ ] Voice activity detection
-- [ ] Background music
-- [ ] Screen sharing
-
----
-
 ## 📊 Stats
 
 - **Lines of Code:** ~2000+
