@@ -1,0 +1,194 @@
+# ===========================
+# API Keys & Secrets
+# ===========================
+.env
+*.env
+.env.*
+secrets.txt
+config.ini
+
+# ===========================
+# Python
+# ===========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+myenv/
+env/
+ENV/
+.venv
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ===========================
+# Database Files
+# ===========================
+*.db
+*.sqlite
+*.sqlite3
+chat_messages.db
+
+# ===========================
+# Audio/Video Files
+# ===========================
+static/audio/*.wav
+static/audio/*.mp3
+temp_audio/*.wav
+temp_audio/*.mp3
+*.wav
+*.mp3
+*.ogg
+*.flac
+new_fixed.wav
+new.wav
+voicevox_raw.wav
+
+# But keep voice sample
+!voice/voice.wav
+
+# ===========================
+# IDE & Editors
+# ===========================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ===========================
+# OS Files
+# ===========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ===========================
+# Logs
+# ===========================
+*.log
+logs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===========================
+# Jupyter Notebook
+# ===========================
+.ipynb_checkpoints
+
+# ===========================
+# ML Models (optional - uncomment if models are large)
+# ===========================
+# *.pt
+# *.pth
+# *.ckpt
+# models/*.bin
+
+# ===========================
+# Temporary Files
+# ===========================
+*.tmp
+*.bak
+*.swp
+*.old
+*~
+
+# ===========================
+# Project Specific
+# ===========================
+# Keep the model files but ignore if they're too large
+# static/models/
+
+# Files for testing
+test_*.py
+scratch.py
+debug.py
+
+# Output files
+output/
+outputs/
+results/
+
+# ===========================
+# Node modules (if using any JS tools)
+# ===========================
+node_modules/
+package-lock.json
+yarn.lock
+
+# ===========================
+# Documentation builds
+# ===========================
+docs/_build/
+site/
+
+# ===========================
+# Backup files
+# ===========================
+*.backup
+backup/
+backups/
