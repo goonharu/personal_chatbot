@@ -1,0 +1,11 @@
+flask
+anthropic
+python-dotenv
+openai
+markdown2
+edge-tts
+pydub
+torch
+TTS
+openai-whisper
+werkzeug

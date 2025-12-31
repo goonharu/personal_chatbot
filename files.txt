@@ -1,0 +1,2 @@
+file 'voice/voice.wav'
+file 'new_fixed.wav'

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+
+    <!-- PIXI -->
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@6.5.2/dist/browser/pixi.min.js"></script>
+
+    <!-- Live2D Cubism 4 CORE (required) -->
+    <script src="https://unpkg.com/live2dcubismcore@1.0.1/live2dcubismcore.min.js"></script>
+
+    <!-- Pixi Live2D plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/cubism4.min.js"></script>
+</head>
+
+
+<body>
+  <div id="canvas_container"><canvas id=canvas></canvas></div>
+  <div class="chat">
+    <div class="messages">
+      <ul class="message-list">
+      </ul>
+      <div class="message-input">
+        <button type="button" class="record-btn">🎤 Record</button>
+        <input type="text" placeholder="Type your message or use voice..." />
+        <button type="button" class="btn">Send</button>
+      </div>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
+</html>
